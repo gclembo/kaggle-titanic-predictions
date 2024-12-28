@@ -1,3 +1,5 @@
 This Kaggle competition involves training a model to predict if someone on the titanic will survive or not. My code can be seen in this repository. 
-I do a little data cleaning and manipulation before fitting a random forest classifier. I split my data for training and validation to find a good number of estimators and max depth
-for my final random forest classifier model. I then fit my final model on all my training data and make predictions on the provided testing data. I then submit my predictions into the competition.
+In this project I engineer new features and look at the mutual information and correlation to determine which feature are effective. I then create a preprocessor 
+pipeline for imputing and encoding te numeric and categorical features. I then created a Random Forest Classifier and Gradient Boosting Classifier and validate 
+the models using k-fold cross validation. Finally I train all my training data on my Gradient Boosting Classifier and submit predictions for the Titanic 
+Machine Learning competition on Kaggle which can be found at https://www.kaggle.com/competitions/titanic. 
